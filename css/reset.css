@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* 문자 인코딩! '' 사용하면 절대 인식 안됨!! ""사용해야함! */
+* {margin:0;padding:0;vertical-align:middle;}
+/* vertical-align ->수직정렬,가운데정렬 */
+html,body {width:100%;height:100%}
+
+html {overflow-y:scroll;}
+/* 스크롤바 기본 생성 scroll<--> hidden (안나오게할때) */
+
+body {font:normal 14px/1 '돋움','굴림';color:#444;background:#fff;/* 패턴이라 no-repeat이나 정렬 필요없음 무한 반복되어도 됨/*/}
+/* font:굵기 크기/줄간격 글꼴종류1, 글꼴종류2... */
+/* body {font-weight:normal;font-size:14px;line-height:1;font-family:'돋움','굴림';color:#444;background:#fff;} 
+과 같은 뜻임 */
+h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:14px;}
+i,em,address {font-style:normal;}
+ul,li {list-style:none;}
+/* 초기화 작업 */
+.clearfix::after {content:"";display:block;clear:both;} /* floationg hack */
+
+/* 링크태그 */
+a {color:#444;text-decoration:none;}
+/* text-decoration:none; 밑줄 없애겠다 */
+
+/* 시멘틱 태그 */
+header,main,section,footer {display:block;}
