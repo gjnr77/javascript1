@@ -15,7 +15,7 @@
 
 /* ★★★★on클래스★★★★ hover 대신*/
 #wrap #header .right-box #nav .main-btn-wrap > li > a.on {background-color:#eee;color:#333;}
-#wrap #header .right-box #nav .main-btn-wrap > li .sub.on {height:180px;transition:all .4s ease-in-out;}
+#wrap #header .right-box #nav .main-btn-wrap > li .sub.on {height:180px;transition:all .3s ease-in-out;}
 
 /* 서브메뉴 LNB */
 #wrap #header .right-box #nav .main-btn-wrap > li .sub {width:100%;height:0;overflow:hidden;/* ul박스가 보이니까 (높이 180) */transition:all .2s ease-in;}
@@ -37,3 +37,9 @@
 #wrap #footer .center-box {float:left;width:800px;height:100px;background:rgba(100,0,150, .3);}
 #wrap #footer .right-box  {float:left;width:200px;height:100px;background:rgba(0,100,100, .3);}
 
+/* 테이블 */
+table {width:1200px;margin:0 auto;border-collapse:collapse;/* 셀 사이의 간격을 없앰 */}
+table tr {}
+table tr th,
+table tr td {width:auto;border:1px solid #ccc;height:45px;font-size:20px;text-align:center;}
+table tr th {background:rgba(50,50,150, .1);}

@@ -15,11 +15,14 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:14px;}
 i,em,address {font-style:normal;}
 ul,li {list-style:none;}
 /* 초기화 작업 */
-.clearfix::after {content:"";display:block;clear:both;} /* floationg hack */
+.clearfix::after {content:"";display:block;clear:both;} 
 
 /* 링크태그 */
 a {color:#444;text-decoration:none;}
-/* text-decoration:none; 밑줄 없애겠다 */
+table {border-collapse:collapse;}
+
 
 /* 시멘틱 태그 */
-header,main,section,footer {display:block;}
+header,main,section,nav,footer {display:block;}
+
+
